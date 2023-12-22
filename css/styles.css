@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+
+}
+
+.container {
+    background-color: #1F2937;    
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 12px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+}
+
+.call-text-heading,
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 12px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.intro h3{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.call-text-content,
+.intro p {
+    font-size: 18px;
+    color: #E5E7EB;
+    max-width: 1000px;
+}
+
+.intro img {
+    max-height: 300px;
+}
+
+button{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: #E5E7EB;
+}
+
+.game-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.game-item img {
+    max-width: 350px;
+}
+
+.content-header {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900px;
+    color: #1f2937;
+    padding: 24px;
+}
+
+.text {
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 36px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: end;
+    margin-bottom: 75px;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 20px 50px;
+}
+
+.call-text-heading {
+    margin-bottom: 0;
+}
+
+.call-text-content {
+    margin-top: 0;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
